@@ -1,0 +1,945 @@
+body {
+    background: #ffffff;
+    background-size: auto 4000px;
+    font-family: 'AlumniSans';
+    color: #091748;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1320px;
+}
+
+.lheader {
+    background-size: cover;
+    background-position: center;
+    background-image: url(image/ff.jpg);
+    width: 100%;
+    height: 770px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: 9%;
+}
+
+.logof {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.htext {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12%
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+header p {
+    font-size: 35px;
+    margin: 0;
+}
+
+header button {
+    font-size: 30px;
+    font-family: 'AlumniSans';
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #1E68D6, #0D3D85);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header button:hover {
+    background: linear-gradient(to bottom, #0D3D85, #1E68D6);
+}
+
+.day {
+    text-align: center;
+}
+
+.day h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.dayp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: #6D2020;
+    width: 285px;
+    height: 420px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 8px 9px 10px rgba(0, 0, 0, 0.5);
+}
+.product:hover{
+    transform: translate(5px, 5px);
+}
+.product img {
+    width: 245px;
+    height: 200px;
+}
+
+.product span {
+    color: #005E20;
+    font-size: 32px;
+}
+
+.product p {
+    font-size: 32px;
+}
+
+.delivery-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.delivery-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.delivery-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.delivery-item {
+    width: 200px;
+    margin: 0 10px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.delivery-item img {
+    width: 149px;
+    height: 149px;
+}
+
+.about-section {
+    margin-top: 20%;
+}
+
+.about {
+    position: absolute;
+    width: 100%;
+    height: 460px;
+    margin-bottom: 17%;
+    background: #bbbbbb;
+    box-shadow: 13px 16px 20px 2px rgba(0, 0, 0, 0.5), inset -6px -3px 23.5px 3px rgba(255, 255, 255, 0.5), inset 8px 8px 21.8px 3px rgba(0, 0, 0, 0.25); 
+}
+
+.about img {
+    position: absolute;
+    width: 259px;
+    height: 165px;
+    left: 2vw;
+    top: 5vw;
+}
+
+.about h1 {
+    position: absolute;
+    width: 40%;
+    height: 58px;
+    left: 35vw;
+    top: 0.2vw;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #091748;
+}
+
+.about p {
+    margin-left: -8%;
+    position: absolute;
+    width: 1400px;
+    height: 200px;
+    left: 25vw;
+    top: 5vw;
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #091748;
+}
+
+.clients-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.clients-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+}
+
+.client-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.client-item {
+    width: 200px;
+    margin: 0 10px 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.client-item img {
+    width: 149px;
+    height: 149px;
+    margin-bottom: 10px;
+}
+
+.client-item p,
+.delivery-item p {
+    font-size: 28px;
+}
+
+footer {
+    padding: 30px 0;
+    position: relative;
+    text-align: center;
+}
+
+.footer1 {
+    color: #fff;
+    width: 100%;
+    height: 340px;
+    background-color: #bbbbbb;
+    margin-top: 20%;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Address {
+    display: flex;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.2;
+    left: 2%;
+    top: 153%;
+}
+
+.image9 {
+    display: flex;
+    position: absolute;
+    margin: -40% 12%;
+    width: 200px;
+}
+
+.flex_col22 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 435px;
+}
+
+.contact {
+    display: flex;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    top: 1%;
+}
+
+.author{
+    width: 120%;
+    background-color: #000;
+    margin-top: 5%;
+    position: absolute;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    top: 400%;
+    left: -17%;
+}
+
+.social {
+    display: flex;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.5;
+    right: 10%;
+}
+
+.social a {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 991px) {
+    @font-face {
+        font-family: 'AlumniSans'; 
+        src: url(/fonts/AlumniSans-VariableFont_wght.ttf); 
+    }
+    
+    body {
+        background: linear-gradient(to bottom, #B7FFFB, #75ACFF, #1F50FF);
+        background-size: auto 4000px;
+        font-family: 'AlumniSans';
+        color: #091748;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1320px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    
+    .lheader {
+        background-image: url('image/header.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 770px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        margin-bottom: 9%;
+    }
+    
+    .logof {
+        height: 350px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1%;
+    }
+    
+    .htext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 12%;
+    }
+    
+    header h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    header p {
+        font-size: 35px;
+        margin: 0;
+    }
+    
+    header button {
+        font-size: 30px;
+        font-family: 'AlumniSans';
+        padding: 10px 20px;
+        background: linear-gradient(to bottom, #1E68D6, #0D3D85);
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    header button:hover {
+        background: linear-gradient(to bottom, #0D3D85, #1E68D6);
+    }
+    
+    .day {
+        text-align: center;
+    }
+    
+    .day h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    .dayp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .product {
+        background-color: #5B93FF;
+        width: 285px;
+        height: 420px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 8px 9px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .product:hover {
+        transform: translate(5px, 5px);
+    }
+    
+    .product img {
+        width: 245px;
+        height: 200px;
+    }
+    
+    .product span {
+        color: #005E20;
+        font-size: 32px;
+    }
+    
+    .product p {
+        font-size: 32px;
+    }
+    
+    .delivery-section {
+        text-align: center;
+        padding: 40px 0;
+    }
+    
+    .delivery-section h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    .delivery-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .delivery-item {
+        width: 200px;
+        margin: 0 10px 20px;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .delivery-item img {
+        width: 149px;
+        height: 149px;
+    }
+    
+    .clients-section {
+        text-align: center;
+        padding: 40px 0;
+    }
+    
+    .clients-section h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    .clients {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .client-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .client-item {
+        width: 200px;
+        margin: 0 10px 20px;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .client-item img {
+        width: 149px;
+        height: 149px;
+        margin-bottom: 10px;
+    }
+    
+    .client-item p,
+    .delivery-item p {
+        font-size: 28px;
+    }
+    
+    footer {
+        padding: 30px 0;
+        position: relative;
+        text-align: center;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .Address {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .image9 {
+        width: 150px;
+        margin: 20px 0;
+    }
+    
+    .flex_col22 {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .contact {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    
+    .author {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    
+    .social {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .social a {
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    
+    .social a:hover {
+        text-decoration: underline;
+    }
+    
+    @media (max-width: 991px) {
+        .container {
+            padding: 0 20px;
+        }
+        .Address,
+        .contact,
+        .author,
+        .social {
+            font-size: 20px;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .Address,
+        .contact,
+        .author,
+        .social {
+            font-size: 18px;
+        }
+    }
+    
+}
+
+@media (max-width: 575px) {
+    @font-face {
+        font-family: 'AlumniSans'; 
+        src: url(/fonts/AlumniSans-VariableFont_wght.ttf); 
+    }
+    
+    body {
+        background: linear-gradient(to bottom, #B7FFFB, #75ACFF, #1F50FF);
+        background-size: auto 4000px;
+        font-family: 'AlumniSans';
+        color: #091748;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1320px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    
+    .lheader {
+        background-image: url('image/header.png');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 770px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        margin-bottom: 9%;
+    }
+    
+    .logof {
+        height: 350px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1%;
+    }
+    
+    .htext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 12%;
+    }
+    
+    header h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    header p {
+        font-size: 35px;
+        margin: 0;
+    }
+    
+    header button {
+        font-size: 30px;
+        font-family: 'AlumniSans';
+        padding: 10px 20px;
+        background: linear-gradient(to bottom, #1E68D6, #0D3D85);
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    header button:hover {
+        background: linear-gradient(to bottom, #0D3D85, #1E68D6);
+    }
+    
+    .day {
+        text-align: center;
+    }
+    
+    .day h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    .dayp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .product {
+        background-color: #5B93FF;
+        width: 285px;
+        height: 420px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 8px 9px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    .product:hover {
+        transform: translate(5px, 5px);
+    }
+    
+    .product img {
+        width: 245px;
+        height: 200px;
+    }
+    
+    .product span {
+        color: #005E20;
+        font-size: 32px;
+    }
+    
+    .product p {
+        font-size: 32px;
+    }
+    
+    .delivery-section {
+        text-align: center;
+        padding: 40px 0;
+    }
+    
+    .delivery-section h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    .delivery-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .delivery-item {
+        width: 200px;
+        margin: 0 10px 20px;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .delivery-item img {
+        width: 149px;
+        height: 149px;
+    }
+    
+    .clients-section {
+        text-align: center;
+        padding: 40px 0;
+    }
+    
+    .clients-section h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    .clients {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .client-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+    .client-item {
+        width: 200px;
+        margin: 0 10px 20px;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .client-item img {
+        width: 149px;
+        height: 149px;
+        margin-bottom: 10px;
+    }
+    
+    .client-item p,
+    .delivery-item p {
+        font-size: 28px;
+    }
+    
+    footer {
+        padding: 30px 0;
+        background-color: black;
+        position: relative;
+        text-align: center;
+        
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .Address {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .image9 {
+        width: 150px;
+        margin: 20px 0;
+    }
+    
+    .flex_col22 {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .contact {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    
+    .author {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    
+    .social {
+        font-size: 20px;
+        left: 0%;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .social a {
+        left: 0%;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+    
+    .social a:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 991px) {
+        .container {
+            padding: 0 20px;
+        }
+        .Address,
+        .contact,
+        .author,
+        .social {
+            font-size: 20px;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .Address,
+        .contact,
+        .author,
+        .social {
+            font-size: 18px;
+        }
+    }
+    
+}
